@@ -40,8 +40,6 @@ PySocks
 python-dotenv
 python-magic
 requests
-tiktoken==0.4.0
-tqdm
 unstructured
 urllib3
 
