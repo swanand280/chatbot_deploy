@@ -42,4 +42,5 @@ python-magic
 requests
 unstructured
 urllib3
+gunicorn
 
