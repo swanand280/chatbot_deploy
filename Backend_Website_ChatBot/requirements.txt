@@ -39,8 +39,6 @@ PyPDF2
 PySocks
 python-dotenv
 python-magic
-python-magic-bin==0.4.14
-regex
 requests
 tiktoken
 tqdm
