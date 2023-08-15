@@ -21,7 +21,6 @@ filetype
 Flask
 Flask-Cors
 frozenlist
-gpt4all
 greenlet
 h11
 idna
