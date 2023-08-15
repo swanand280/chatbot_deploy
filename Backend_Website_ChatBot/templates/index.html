@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ASK ME</title>
+    <link rel="stylesheet" href="../static/css/style.css">
+</head>
+<body>
+    <h1> 💭 ASK ME ABOUT TEXAS EDUCATION</h1>
+
+    <form action ="/check" method="post">
+        <table class="center">
+            <tr>
+                <td>
+                    <input type="text" id="question" name="question" placeholder="Enter Here "/>
+                </td>
+            </tr>
+        <tr>
+            <td colspan="3">
+                <input id="btn" type="submit" value="CHECK" >
+            </td>
+        </tr>
+        </table>
+        <h3>OUTPUT : {{check}}</h3>
+    </form>
+</body>
+</html>
