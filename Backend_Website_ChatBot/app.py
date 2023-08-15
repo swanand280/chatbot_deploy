@@ -6,7 +6,9 @@ from flask_cors import CORS
 from dotenv import load_dotenv
 load_dotenv()
 OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY")
-os.environ["OPENAI_API_KEY"] = OPENAI_API_KEY
+
+if OPENAI_API_KEY is None:
+    raise ValueError("Please set the OPENAI_API_KEY environment variable.")
 
 app=Flask(__name__)
 CORS(app,origins="*")
